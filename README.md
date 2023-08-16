@@ -1,6 +1,6 @@
 # ClamAV Installation Script
 
-This repository contains a shell script that automates the installation and configuration of ClamAV on a Linux system.
+This repository contains a shell script that automates the installation and configuration of ClamAV on a Linux system. The script will automatically update the package repository, install ClamAV and related packages, configure ClamAV settings, restart services, and enable ClamAV to start at boot.
 
 ## Usage
 
@@ -23,8 +23,9 @@ To install ClamAV using the provided script, follow these steps:
     ```bash
     ./install_clamav.sh
     ```
+    
+4. To view the ClamAV log, you can use the following command:
+    ```bash
+    sudo cat /var/log/clamav/clamav.log
 
-4. The script will automatically update the package repository, install ClamAV and related packages, configure ClamAV settings, restart services, and enable ClamAV to start at boot.
-
-5. After completion, you'll see a success message indicating that ClamAV has been successfully installed and configured.
 
