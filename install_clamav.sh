@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update the package repository
-sudo apt update -y
+sudo apt update
 
 # Install ClamAV and related packages
 sudo apt install clamav clamav-daemon clamav-freshclam -y
