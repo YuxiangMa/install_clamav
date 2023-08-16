@@ -21,7 +21,7 @@ To install ClamAV using the provided script, follow these steps:
 3. Run the script with administrative privileges (sudo):
 
     ```bash
-    sudo ./install_clamav.sh
+    ./install_clamav.sh
     ```
 
 4. The script will automatically update the package repository, install ClamAV and related packages, configure ClamAV settings, restart services, and enable ClamAV to start at boot.
